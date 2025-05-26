@@ -1,1 +1,12 @@
-https://www.kaggle.com/datasets/puneet6060/intel-image-classification
+1. Data Source & Data Link 
+The dataset used in this project is the Intel Image Classification dataset, which is a popular 
+benchmark dataset for multi-class image classification tasks involving natural scenes. It contains 
+RGB images categorized into six different classes: buildings, forest, glacier, mountain, sea, and 
+street. 
+• Dataset Name: Intel Image Classification Dataset 
+• Number of Classes: 6 (Buildings, Forest, Glacier, Mountain, Sea, Street) 
+• Image Format: RGB (.jpg) 
+• Image Size: Varies; resized to 224x224 for model input 
+• Total Images: Approximately 25,000+ images 
+• Source: This dataset is available publicly on Kaggle. 
+• Kaggle Dataset Link: https://www.kaggle.com/datasets/puneet6060/intel-image-classification
