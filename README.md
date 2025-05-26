@@ -8,7 +8,8 @@ This repository contains the code and resources for training an image classifica
 ## 📁 Repository Structure
 
 ```
-
+├── Data/
+│   └── train.txt # Link is given here 
 ├── notebooks/
 │   └── image\_classifier.ipynb   # Jupyter notebook with end-to-end implementation
 ├── slides/
