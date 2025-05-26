@@ -49,15 +49,36 @@ This repository contains the code and resources for training an image classifica
    ```bash
    pip install -r requirements.txt
    ```
-
-### Dataset
-
-Download the Intel Image Classification dataset from Kaggle and place the folders under `data/`:
-
-* `data/seg_train/`
-* `data/seg_test/`
+Here's a polished version suitable for inclusion in a `README.md` file:
 
 ---
+
+### 🖼️ Dataset Overview
+
+* **Number of Classes:** 6
+
+  * `Buildings`, `Forest`, `Glacier`, `Mountain`, `Sea`, `Street`
+* **Image Type:** RGB (`.jpg`)
+* **Input Image Size:** Resized to `224x224` pixels
+* **Total Images:** \~25,000+
+* **Source:** [Kaggle - Intel Image Classification Dataset](https://www.kaggle.com/datasets/puneet6060/intel-image-classification)
+
+### 📁 Dataset Structure
+
+After downloading and extracting the dataset, place the folders as follows:
+
+```
+data/
+├── seg_train/
+└── seg_test/
+```
+
+Each folder contains subdirectories for the 6 classes, each filled with labeled images.
+
+---
+
+Let me know if you’d like a code snippet to automate the download or preprocessing steps.
+
 
 ## 🛠 Usage
 
