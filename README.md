@@ -9,11 +9,6 @@ This repository contains the code and resources for training an image classifica
 
 ```
 
-.
-├── data/
-│   ├── seg\_train/         # Training images (organized by class)
-│   ├── seg\_test/          # Test images for prediction
-│   └── seg\_pred/          # (Optional) Unlabeled images for custom prediction
 ├── notebooks/
 │   └── image\_classifier.ipynb   # Jupyter notebook with end-to-end implementation
 ├── slides/
